@@ -78,7 +78,7 @@ class PrimClient:
 
         return data
     
-    def estimated_timetable(self, ligne_ref: str = "ALL", to_df: bool = False) -> dict | pl.DataFrame:
+    def estimated_timetable(self, ligne_ref: str = "ALL") -> dict | pl.DataFrame:
         """"""
         payload = {"LineRef": ligne_ref}
 
